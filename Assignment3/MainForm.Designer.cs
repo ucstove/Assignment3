@@ -61,6 +61,7 @@
             btnDeal.TabIndex = 0;
             btnDeal.Text = "&Deal";
             btnDeal.UseVisualStyleBackColor = true;
+            btnDeal.Click += btnDeal_Click;
             // 
             // btnSave
             // 
