@@ -71,6 +71,7 @@
             btnSave.TabIndex = 1;
             btnSave.Text = "&Save Hand";
             btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
             // btnLoad
             // 
@@ -80,6 +81,7 @@
             btnLoad.TabIndex = 2;
             btnLoad.Text = "&Load Hand";
             btnLoad.UseVisualStyleBackColor = true;
+            btnLoad.Click += btnLoad_Click;
             // 
             // pb1
             // 
